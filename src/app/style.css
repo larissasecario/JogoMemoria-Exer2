@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+
+}
+
+.App{
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: radial-gradient(circle, rgba(35,35,113,1) 5%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+

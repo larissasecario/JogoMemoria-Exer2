@@ -1,0 +1,33 @@
+.headerJogo{
+    width: 80%;
+    height: 15%;
+    left: 10%;
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+
+}
+
+.headerJogo button{
+    margin-top:20px;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 22px;
+    padding: 10;
+    margin-top: 20px;
+
+}
+
+.headerJogo button:hover{
+    background-color: #e5424c;
+
+    
+    
+
+}
+
