@@ -20,13 +20,8 @@
     position: relative;
     transform-style: preserve-3d;
     
-
 }
 
-.carta:hover{
-    transform: rotateY(180deg);
-    
-}
 
 .face{
     border-radius: 2rem;
@@ -40,11 +35,20 @@
     transform: rotateY(180deg);
     background-size: cover;
     background-position: center;
-
+   
 }
 .costas{
-    background-image: url('./img/fundo-card.png');
+    background-image: url("./fundo-card.png");
     background-size: contain;
     background-position: center;
     background-color: #ffff;
+}
+
+.virarCarta{
+    width: 15rem;
+    height: 15rem;
+    transition: all 2.5s;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
 }

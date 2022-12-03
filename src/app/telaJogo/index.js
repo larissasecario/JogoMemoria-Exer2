@@ -6,14 +6,14 @@ export const TelaJogo = ()=>{
     const cartasDublicadas = [...imgCartas, ...imgCartas];
 
     const embaralhar = cartasDublicadas.sort(()=>{return Math.random()-0.5});
-    console.log(embaralhar[0], embaralhar[1], embaralhar[2],embaralhar[3],)
-
-
-
     
+
+
+
+
     return(
         <div className="telaJogo">
-            <Carta tipoCarta={embaralhar[0]}/>
+            <Carta tipoCarta={embaralhar[0]} />
             <Carta tipoCarta={embaralhar[1]}/>
             <Carta tipoCarta={embaralhar[2]}/>
             <Carta tipoCarta={embaralhar[3]}/>
